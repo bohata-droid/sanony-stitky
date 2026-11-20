@@ -3,7 +3,7 @@
 <title>AG — tisk štítků na šanony</title>
 <style>
 :root{font-family:Arial,Helvetica,sans-serif;color:#20242b;background:#f2f4f7}*{box-sizing:border-box}
-body{margin:0}.app{max-width:1250px;margin:0 auto;padding:25px 22px 70px}header{margin-bottom:20px}h1{font-size:26px;margin:0 0 6px}p{margin:5px 0 12px;color:#576170;line-height:1.5}.panel{background:white;border:1px solid #d9dee5;border-radius:12px;padding:20px;margin:16px 0;box-shadow:0 2px 12px #1526380b}h2{font-size:17px;margin:0 0 14px}.control-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}.field{display:flex;flex-direction:column;gap:8px;font-size:14px;font-weight:600}.field input,.field select,textarea{border:1px solid #aeb9c6;border-radius:7px;padding:10px;font:inherit;max-width:100%}textarea{width:100%;height:42px;resize:none;font:13px/1.5 Consolas,monospace;white-space:pre;tab-size:4}.radiogroup{display:flex;gap:12px;flex-wrap:wrap;font-weight:400}.radiogroup label{display:flex;align-items:center;gap:4px}button{border:1px solid #1d354c;background:#1d354c;color:#fff;border-radius:7px;padding:10px 14px;font-weight:700;cursor:pointer}button.secondary{background:white;color:#1d354c}button:disabled{opacity:.45;cursor:default}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px;align-items:center}.subtle{font-size:12px;color:#616b77}.alert{padding:10px 12px;margin-top:12px;border-left:4px solid #b87c13;background:#fff6e6;white-space:pre-line}.success{border-left-color:#347858;background:#edfaf0}.muted{color:#637081}.preview-tools{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}.preview-scaling{overflow:auto;padding:12px;background:#e9ecf1;border-radius:7px;max-height:680px}.sheet-page{width:29.7cm;height:21cm;position:relative;background:#fff;margin:0 auto 18px;box-shadow:0 3px 16px #0002;overflow:hidden;flex-shrink:0}.label-row{position:absolute;top:1cm;left:0;width:100%;display:flex;justify-content:center;align-items:stretch;height:19cm}.label{position:relative;flex:none;height:19cm;border:.35pt solid #292929;background:#fff;text-align:center;font-family:Georgia,'Times New Roman',serif;overflow:hidden}.logo{position:absolute;left:7%;top:.30cm;width:86%;height:2.75cm;object-fit:contain}.label-title{position:absolute;left:.18cm;right:.18cm;top:3.45cm;bottom:4.45cm;display:flex;align-items:center;justify-content:center;text-align:center;font-size:30pt;line-height:1.16;font-weight:700;overflow-wrap:normal;word-break:normal;white-space:pre-line}.label-title.vertical{left:50%;right:auto;top:var(--vertical-center,9.3cm);bottom:auto;transform:translate(-50%,-50%) rotate(-90deg);width:var(--vertical-length,9.5cm);height:var(--title-track);max-height:none;min-height:0;white-space:pre-line}.label-bottom{position:absolute;bottom:.22cm;left:.10cm;right:.10cm;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;font-weight:700;line-height:1.05}.label-period{font-size:22pt;line-height:1.05;white-space:pre-line;overflow-wrap:normal;word-break:normal}.label-code{margin-top:16pt;font-size:29pt;line-height:1.14;white-space:pre-line}.label-disposal{font-size:28pt;line-height:1.1;white-space:pre-line}.label-disposal small{font-size:.52em}.footnote{font-size:12px;color:#586575;margin-top:10px}
+body{margin:0}.app{max-width:1250px;margin:0 auto;padding:25px 22px 70px}header{margin-bottom:20px}h1{font-size:26px;margin:0 0 6px}p{margin:5px 0 12px;color:#576170;line-height:1.5}.panel{background:white;border:1px solid #d9dee5;border-radius:12px;padding:20px;margin:16px 0;box-shadow:0 2px 12px #1526380b}h2{font-size:17px;margin:0 0 14px}.control-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}.field{display:flex;flex-direction:column;gap:8px;font-size:14px;font-weight:600}.field input,.field select,textarea{border:1px solid #aeb9c6;border-radius:7px;padding:10px;font:inherit;max-width:100%}textarea{width:100%;height:42px;resize:none;font:13px/1.5 Consolas,monospace;white-space:pre;tab-size:4}.radiogroup{display:flex;gap:12px;flex-wrap:wrap;font-weight:400}.radiogroup label{display:flex;align-items:center;gap:4px}button{border:1px solid #1d354c;background:#1d354c;color:#fff;border-radius:7px;padding:10px 14px;font-weight:700;cursor:pointer}button.secondary{background:white;color:#1d354c}button:disabled{opacity:.45;cursor:default}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px;align-items:center}.subtle{font-size:12px;color:#616b77}.alert{padding:10px 12px;margin-top:12px;border-left:4px solid #b87c13;background:#fff6e6;white-space:pre-line}.success{border-left-color:#347858;background:#edfaf0}.muted{color:#637081}.preview-tools{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}.preview-scaling{overflow:auto;padding:12px;background:#e9ecf1;border-radius:7px;max-height:680px}.sheet-page{width:29.7cm;height:21cm;position:relative;background:#fff;margin:0 auto 18px;box-shadow:0 3px 16px #0002;overflow:hidden;flex-shrink:0}.label-row{position:absolute;top:1cm;left:0;width:100%;display:flex;justify-content:center;align-items:stretch;height:19cm}.label{position:relative;flex:none;height:19cm;border:.35pt solid #292929;background:#fff;text-align:center;font-family:Georgia,'Times New Roman',serif;overflow:hidden}.logo{position:absolute;left:7%;top:.30cm;width:86%;height:2.75cm;object-fit:contain}.label-title{position:absolute;left:.18cm;right:.18cm;top:4cm;bottom:4.45cm;display:flex;align-items:flex-start;justify-content:center;text-align:center;font-size:30pt;line-height:1.16;font-weight:700;overflow-wrap:normal;word-break:normal;white-space:pre-line}.label-title.vertical{left:50%;right:auto;top:var(--vertical-center,9.3cm);bottom:auto;transform:translate(-50%,-50%) rotate(-90deg);width:var(--vertical-length,9.5cm);height:var(--title-track);max-height:none;min-height:0;white-space:pre-line}.label-bottom{position:absolute;bottom:.22cm;left:.10cm;right:.10cm;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;font-weight:700;line-height:1.05}.label-period{font-size:22pt;line-height:1.05;white-space:pre-line;overflow-wrap:normal;word-break:normal}.label-code{margin-top:16pt;font-size:29pt;line-height:1.14;white-space:pre-line}.label-disposal{font-size:28pt;line-height:1.1;white-space:pre-line}.label-disposal small{font-size:.52em}.footnote{font-size:12px;color:#586575;margin-top:10px}
  .editable-wrap{margin-top:14px;overflow-x:auto}.edit-table{border-collapse:collapse;width:100%;font-size:13px;min-width:940px}.edit-table th,.edit-table td{border:1px solid #d8e0e9;padding:5px;text-align:left;vertical-align:middle}.edit-table th{position:sticky;top:0;background:#f0f4f8;white-space:nowrap}.edit-table td input,.edit-table td textarea,.edit-table td select{width:100%;border:1px solid #c0cbd6;border-radius:4px;padding:6px;font:inherit;background:white}.edit-table td textarea{min-height:42px;height:48px;resize:vertical;white-space:pre-wrap}.edit-table td:first-child{color:#697787;text-align:center}.edit-table td button{padding:5px 9px}.edit-table td:nth-child(5){min-width:210px}.edit-table td:nth-child(6){min-width:125px}.edit-table td:nth-child(7){min-width:90px}.edit-table td:nth-child(8){min-width:90px}.edit-table .invalid{border-color:#bb332f;background:#fff4f2}.paste-note{font-size:12px;color:#596879;margin-top:6px}.font-adjust{display:flex;align-items:center;gap:5px;justify-content:center;white-space:nowrap}.font-adjust button{padding:3px 8px;min-width:30px;font-size:17px;line-height:1.15}.font-adjust output{min-width:45px;text-align:center;font-variant-numeric:tabular-nums}
 @media screen{.sheet-page{zoom:.82}}
 @page{size:A4 landscape;margin:0}
@@ -15,6 +15,7 @@ body{margin:0}.app{max-width:1250px;margin:0 auto;padding:25px 22px 70px}header{
 <textarea id="data" spellcheck="false" aria-label="Tabulka ze schránky" placeholder="A 7&#9;S&#9;10 PSP&#9;PORADÍM SE S AI&#9;2026–2028&#9;6&#9;"></textarea><div id="table-wrap" class="editable-wrap" hidden><table class="edit-table" id="edit-table"><thead><tr><th>Řádek</th><th>A · Spisový znak</th><th>B · Skartační znak</th><th>C · Lhůta</th><th>D · Název složky</th><th>E · Období</th><th>F · Šířka (cm)</th><th>G · Směr</th><th>Velikost písma</th><th></th></tr></thead><tbody id="edit-body"></tbody></table></div><div class="actions"><button id="add-row" class="secondary">+ Nový řádek</button><button id="paste" class="secondary">Vložit ze schránky</button><button id="example" class="secondary">Vyzkoušet vzorová data</button><button id="clear" class="secondary">Vymazat data</button><button id="save-work" class="secondary">Uložit rozpracovaná data</button><button id="load-work" class="secondary">Načíst rozpracovaná data</button><input type="file" id="load-file" accept=".json,application/json" hidden></div></section>
 <section class="panel"><h2>2. Nastavení štítků</h2><div class="control-grid">
 <div class="field">Směr názvu složky<div class="radiogroup"><label><input type="radio" name="orientation" value="horizontal" checked>Vodorovně</label><label><input type="radio" name="orientation" value="vertical">Svisle</label></div></div>
+<div class="field">Odsazení názvu shora (cm)<input id="name-top" type="text" inputmode="decimal" value="4" aria-label="Odsazení názvu shora v centimetrech"></div>
 <div class="field">Výchozí šířka<select id="width"><option value="6">6 cm</option><option value="4.5">4,5 cm</option><option value="custom">Vlastní šířka</option></select></div>
 <div class="field" id="custom-wrap" style="display:none">Vlastní šířka (cm)<input type="text" id="custom" inputmode="decimal" value="6" placeholder="např. 2,5"></div>
 
@@ -110,7 +111,9 @@ function fitText(label,mode,w,adjust=0){
   const cm=label.getBoundingClientRect().height/19;
   const fits=el=>el.scrollHeight<=el.clientHeight+1.5&&el.scrollWidth<=el.clientWidth+1.5;
   const minFont=Math.max(5,(w<4?14:16)+adjust);
-  let top=3.45*cm, footHeight, bottom, available;
+  const configuredTop=parseFloat(($('name-top').value||'4').replace(',', '.'));
+  const wantedTop=Math.min(15,Math.max(0.5,Number.isFinite(configuredTop)?configuredTop:4));
+  let top=wantedTop*cm, footHeight, bottom, available;
   // First size the entire footer to fit its width, reducing the skartační details as necessary.
   for(let sz=Math.max(7,29+adjust);sz>=7;sz-=.5){
     code.style.fontSize=sz+'pt';
@@ -125,17 +128,16 @@ function fitText(label,mode,w,adjust=0){
   available=label.getBoundingClientRect().height-bottom-top;
   if(available<2*cm){
     logo.style.height='2.05cm';logo.style.top='.22cm';
-    top=2.65*cm;
-    available=label.getBoundingClientRect().height-bottom-top;
+    // The user's top offset is authoritative: do not silently move the title.
   }
   if(mode==='vertical'){
     title.style.setProperty('--vertical-length',Math.max(.5,available/cm)+'cm');
     title.style.setProperty('--vertical-center',(top+available/2)/cm+'cm');
     title.style.setProperty('--title-track',Math.max(.3,w-.35)+'cm');
   }else{
-    title.style.top=top+'px';title.style.bottom=bottom+'px';
+    title.style.top=top+'px';title.style.bottom=bottom+'px';title.style.alignItems='flex-start';
   }
-  // More compact names move nearer the top when necessary and never intrude on footer.
+  // Keep the requested top offset fixed; only the font size may be reduced.
   for(let sz=Math.max(minFont,30+adjust);sz>=minFont;sz-=.5){title.style.fontSize=sz+'pt';if(fits(title))return true}
   title.style.fontSize=minFont+'pt';
   return fits(title);
@@ -172,7 +174,7 @@ $('clear').onclick=()=>importText('');
 $('add-row').onclick=()=>{rows.push({...Object.fromEntries(COLS.map(x=>[x,''])),fontAdjust:0});syncEditor();render();const fields=$('edit-body').lastElementChild?.querySelectorAll('input,textarea,select');if(fields?.length){fields[3].focus();fields[3].scrollIntoView({block:'nearest'})}};
 // Save a self-contained working copy: data, font adjustments, and shared settings.
 $('save-work').onclick=()=>{
-  const work={format:'ag-sanon-labels',version:1,rows:rows.map(r=>({...Object.fromEntries(COLS.map(k=>[k,clean(r[k])])),fontAdjust:fontDelta(r)})),settings:{width:$('width').value,custom:$('custom').value,orientation:document.querySelector('input[name="orientation"]:checked').value}};
+  const work={format:'ag-sanon-labels',version:1,rows:rows.map(r=>({...Object.fromEntries(COLS.map(k=>[k,clean(r[k])])),fontAdjust:fontDelta(r)})),settings:{width:$('width').value,custom:$('custom').value,orientation:document.querySelector('input[name="orientation"]:checked').value,nameTop:$('name-top').value}};
   const blob=new Blob([JSON.stringify(work,null,2)],{type:'application/json;charset=utf-8'});
   const url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download='stitky_AG_rozpracovana_data.json';document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1200);
 };
@@ -184,6 +186,7 @@ $('load-file').addEventListener('change',async(e)=>{
     if(work.format!=='ag-sanon-labels'||!Array.isArray(work.rows)||work.rows.length>20000)throw Error('Nesprávný formát souboru.');
     rows=work.rows.map(r=>({...Object.fromEntries(COLS.map(k=>[k,clean(r[k])])),fontAdjust:fontDelta(r)}));
     if(work.settings){
+      $('name-top').value=String(work.settings.nameTop??'4');
       const width=['6','4.5','custom'].includes(work.settings.width)?work.settings.width:'6';$('width').value=width;
       $('custom').value=clean(work.settings.custom||'6');$('custom-wrap').style.display=width==='custom'?'flex':'none';
       const orientation=work.settings.orientation==='vertical'?'vertical':'horizontal';document.querySelector('input[name="orientation"][value="'+orientation+'"]').checked=true;
@@ -198,7 +201,7 @@ $('paste').onclick=async()=>{
 };
 $('data').addEventListener('paste',ev=>{const t=ev.clipboardData?.getData('text/plain');if(t!==undefined){ev.preventDefault();importText(t)}});
 $('data').addEventListener('input',()=>importText($('data').value));
-document.querySelectorAll('select,input[type=radio],#custom').forEach(el=>{if(el.closest('.edit-table'))return;el.addEventListener('change',()=>{$('custom-wrap').style.display=$('width').value==='custom'?'flex':'none';render()});if(el.id==='custom')el.addEventListener('input',scheduleRender)});
+document.querySelectorAll('select,input[type=radio],#custom,#name-top').forEach(el=>{if(el.closest('.edit-table'))return;el.addEventListener('change',()=>{$('custom-wrap').style.display=$('width').value==='custom'?'flex':'none';render()});if(el.id==='custom')el.addEventListener('input',scheduleRender);if(el.id==='name-top')el.addEventListener('input',scheduleRender)});
 window.addEventListener('beforeprint',()=>{document.querySelectorAll('.sheet-page').forEach(el=>el.style.zoom='1')});
 window.addEventListener('afterprint',()=>{document.querySelectorAll('.sheet-page').forEach(el=>el.style.zoom='')});
 render();
